@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    display: inline-block;
+    margin: 20px;
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.project img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+.M {
+    color: aquamarine;
+}
+a {
+    color: #200a9c; /* Couleur des liens */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+    transition: color 0.3s; /* Effet de transition pour le changement de couleur */
+}
+
+a:hover {
+    color: #e62424; /* Couleur des liens au survol */
+    text-decoration: underline; /* Souligne le lien au survol */
+}
+
+a:visited {
+    color: #200a9c; /* Couleur des liens déjà visités */
+}
